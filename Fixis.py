@@ -9,7 +9,12 @@ import plotly.io as pio
 import subprocess
 import zipfile
 import io
+import streamlit as st
 
+st.set_page_config(page_title="Prueba")
+
+st.write("✅ La aplicación llegó hasta aquí")
+st.stop()
 #----------------------------------------------------------------------------------------
 
    
